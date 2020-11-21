@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/bai"
+            android:gravity="center"
+            android:text="Transaction History"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/zhuan"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:textColor="@color/bai"
+            android:gravity="center"
+            android:text="Transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </RelativeLayout>
+    <ListView
+        android:layout_marginTop="50dp"
+        android:id="@+id/listvew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/geren"
+        android:src="@drawable/customerbubble"
+        android:layout_alignParentRight="true"
+        android:layout_margin="50dp"
+        android:textColor="@color/bai"
+        android:gravity="center"
+        android:text="Personal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

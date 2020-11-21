@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <RelativeLayout
+        android:background="@color/main1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/bai"
+            android:gravity="center"
+            android:text="Personal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/tuichu"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:textColor="@color/bai"
+            android:gravity="center"
+            android:text="Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/usernametv"
+            android:layout_margin="20dp"
+            android:text="name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/userkey"
+            android:layout_margin="20dp"
+            android:textIsSelectable="true"
+            android:text="iamkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/userwallet"
+            android:layout_margin="20dp"
+            android:text="My Wallet：100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
