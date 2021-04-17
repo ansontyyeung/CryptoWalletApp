@@ -28,5 +28,6 @@ An user can check the transaction records on the history page.
 
 <img width="250" alt="Screenshot 2020-11-10 at 12 33 03 AM" src="https://user-images.githubusercontent.com/56186850/115117297-63203080-9fd0-11eb-95cf-eb5ace4b4ffe.png">
 
+//10.0.2.2 is used to connect to local web server. You may edit what host to use inside java/com.example.a4017btcWallet/utils/Xutils
 
 
